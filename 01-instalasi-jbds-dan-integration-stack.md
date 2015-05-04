@@ -51,18 +51,34 @@ Integration Stack for JBoss Developer Studio adalah skumpulan plugins untuk Ecli
 
 Berikut cara instalasi secara online:
 
-1. Jalankan JBDS
+1.  Jalankan JBDS
 
-2. Pilih "Software/Update" tab pada  "JBoss Central" view.
-   Jika ada pilihan (checkbox) "Enable Early Access", klik checkbox tersebut dan klik Yes saat keluar pesan warning.
+2.  Pilih "Software/Update" tab pada  "JBoss Central" view.
+    Jika ada pilihan (checkbox) "Enable Early Access", klik checkbox tersebut dan klik Yes saat keluar pesan warning.
 
-3. Lihat pada bagian JBoss Developer Studio Integration Stack. Tick semua items berikut:
+3.  Lihat pada bagian JBoss Developer Studio Integration Stack. Tick semua items berikut:
 
     - JBoss Business Process and Rules Development
     - JBoss Data Virtualization Development
     - JBoss Integration and SOA Development
     - JBoss SOA 5.x Development
 
-    Kemudian klik tombol Install .
+    Kemudian klik tombol "Install/Update (4)".
+    
+    ![image](https://cloud.githubusercontent.com/assets/3068071/7453659/b5561c32-f295-11e4-96bf-0c913eda1018.png)
 
-4. 
+4.  Tunggu proses penampilan daftar komponen yang akan diinstal muncul, lamanya proses ini dan proses instalasi berikutnya akan tergantung dari kecepatan download.
+
+    ![image](https://cloud.githubusercontent.com/assets/3068071/7453846/b05d5572-f297-11e4-9233-25abc207a4a9.png)
+
+5.   Klik "Select All" kemudian Next, Next
+6.   Accept the term of the license agreements, kelmudian klik Finish. Tunggu sampai proses instalasi selesai.
+     Jika ada pesan "Security Warning" karena __you are installing software that contains unsigned contents__, klik OK
+7.   Klik Yes, saat diminta restart JBDS.
+
+### Instalasi Offline
+
+1.  Buka halaman web berikut: [https://devstudio.jboss.com/updates/8.0/integration-stack/](https://devstudio.jboss.com/updates/8.0/integration-stack/)
+2.  Download file **[jbdevstudio-integration-stack-updatesite-8.0.1.GA](https://devstudio.jboss.com/updates/8.0.0/jbdevstudio-integration-stack-updatesite-8.0.1.GA.zip)** 
+3.  Jalankan JBDS
+4.  
