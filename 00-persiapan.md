@@ -1,7 +1,7 @@
 Sebelum memulai LAB, ada beberapa hal yang perlu diperhatikan
 
-*  Baca dokumen [supported configuration](https://access.redhat.com/articles/703663) terutama JDK yang dapat digunakan serta versinya.
-*  Mesin (laptop/PC) yang akan digunakan minimal memiliki 4GB memory dan beberapa GB disk space.
+*  Baca dokumen [JDV supported configuration](https://access.redhat.com/articles/703663) terutama JDK yang dapat digunakan serta versinya.
+*  Mesin (laptop/PC) yang akan digunakan minimal memiliki 4GB memory dan beberapa kira-kira 3 GB disk space.
 *  Saya sarankan anda sudah menginstall Oracle JDK 1.7 atau 1.8
 *  Anda sudah menginstall PostgreSQL minimal versi 9.2. Database ini akan digunakan sebagai penyedia contoh data.
 *  Pada dasarnya JDV bisa dijalankan di sistem operasi apa saja, Windows, Linux, Mac OS-X selama JDK diatas bisa dijankan, jadi pada workshop ini anda bebas menggunakan OS apa saja, tapi pada lingkungan Production sebaiknya digunakan OS yang di list di dokumen Supported Configuration diatas.
