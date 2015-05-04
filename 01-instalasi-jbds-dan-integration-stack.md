@@ -71,14 +71,38 @@ Berikut cara instalasi secara online:
 
     ![image](https://cloud.githubusercontent.com/assets/3068071/7453846/b05d5572-f297-11e4-9233-25abc207a4a9.png)
 
-5.   Klik "Select All" kemudian Next, Next
-6.   Accept the term of the license agreements, kelmudian klik Finish. Tunggu sampai proses instalasi selesai.
-     Jika ada pesan "Security Warning" karena __you are installing software that contains unsigned contents__, klik OK
-7.   Klik Yes, saat diminta restart JBDS.
+5.  Klik "Select All" kemudian Next, Next
+6.  Accept the term of the license agreements, kelmudian klik Finish. Tunggu sampai proses instalasi selesai.
+    Jika ada pesan "Security Warning" karena __you are installing software that contains unsigned contents__, klik OK
+7.  Klik Yes, saat diminta restart JBDS.
 
 ### Instalasi Offline
 
 1.  Buka halaman web berikut: [https://devstudio.jboss.com/updates/8.0/integration-stack/](https://devstudio.jboss.com/updates/8.0/integration-stack/)
 2.  Download file **[jbdevstudio-integration-stack-updatesite-8.0.1.GA](https://devstudio.jboss.com/updates/8.0.0/jbdevstudio-integration-stack-updatesite-8.0.1.GA.zip)** 
 3.  Jalankan JBDS
-4.  
+4.  Klik menu Help kemudian "Install New Software..."
+5.  Pada windows Install, klik Add. 
+    
+    Sebuah dialog window akan muncul, masukan informasi berikut:
+
+    - Name: JBDS Integration Stack
+    - Location: (Klik Archive, kemudian pilih file zip yang sudah anda download), hasilnya seperti ini jar:file:/Downloads/jbdevstudio-integration-stack-updatesite-8.0.1.GA.zip!/
+
+    Klik OK
+    
+6.  Daftar komponen akan muncul seperti berikut:
+
+    ![image](https://cloud.githubusercontent.com/assets/3068071/7454112/ce87a388-f29a-11e4-80b5-845508f4ecb4.png)
+    
+    Klik "Select All", Kemdian klik Next
+7.  Accept the term of the license agreements, kelmudian klik Finish. Tunggu sampai proses instalasi selesai.
+    Jika ada pesan "Security Warning" karena __you are installing software that contains unsigned contents__, klik OK
+7.  Klik Yes, saat diminta restart JBDS.
+
+### Teiid Perspective
+
+1.  Pada menu JBDS klik Window > Open Perspective > Other...
+2.  Pilih **Teiid Designer** pada daftar perspective, lalu klik OK
+
+    ![image](https://cloud.githubusercontent.com/assets/3068071/7454171/7697f636-f29b-11e4-9968-7e6a7f8686e4.png)
