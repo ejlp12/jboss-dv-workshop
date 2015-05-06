@@ -1,6 +1,6 @@
 Sebelum memulai LAB, ada beberapa hal yang perlu diperhatikan
 
-> Penjelasan dalam dokumen workshop (LAB) ini saya asumsikan anda menggunakan Linux atau OS-X sehingga perintah-perintah (command line) kadang kala spesifik untuk OS tersebut. Saya anggap anda sudah tau padanan perintah tersebut pada OS yang anda gunakan, misalnya Windows.
+> Penjelasan dalam dokumen workshop (LAB) ini saya asumsikan anda menggunakan operating system (OS) Linux atau OS-X sehingga perintah-perintah (command line) kadang kala spesifik untuk OS tersebut. Saya anggap anda sudah tau padanan perintah tersebut pada OS yang anda gunakan, misalnya Windows.
 
 *  Baca dokumen [JDV supported configuration](https://access.redhat.com/articles/703663) terutama JDK yang dapat digunakan serta versinya.
 *  Mesin (laptop/PC) yang akan digunakan minimal memiliki 4GB memory dan beberapa kira-kira 3 GB disk space.
