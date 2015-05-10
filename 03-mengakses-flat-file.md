@@ -161,6 +161,27 @@ Kita akan menggunakan [SQuirreL](http://squirrel-sql.sourceforge.net/) sebagai S
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7555527/b3f4f114-f778-11e4-85cc-7a6394d5c374.png)
 
-8.
+8.  Langkah berikutnya hanya mengkonfirmasi isi file, klik Next
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555542/6e96a9b8-f779-11e4-9238-ee4d1c5ac381.png)
 
+9.  Ganti tipe data `birth_date` menjadi `date`, lalu klik Next
 
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555586/22d40f42-f77a-11e4-8b0a-b4d5d66ab973.png)
+
+	> TEXTTABLE function options:
+	> ![image](https://cloud.githubusercontent.com/assets/3068071/7555581/d3cf8944-f779-11e4-8900-a337ef9144e7.png) 
+
+10. Spesifikasikan nama dari View Model yang kita buat, kemudian klik Finish
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555596/9e9b5018-f77a-11e4-9023-ef732174d125.png)
+	
+11. Sebuah Source Model dan View Model secara otomatis dibuat
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555607/db44eb96-f77a-11e4-896d-2a81aca135ac.png)
+
+12. Klik menu-bar "File > Save All"
+
+**Selesai**
+
+## 
