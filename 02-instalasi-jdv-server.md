@@ -78,7 +78,7 @@ Sebelum melakukan instalasi, mari kita liat dokumentasi yang tersedia untuk JDV:
 
 4.  Eksplorasi Management Console terutama bagian yang berkaitan konfigurasi JDV (Teiid)
    
-    Anda bisa lihat pada [halman screenshots](https://github.com/ejlp12/jboss-dv-workshop/issues/13), kemudian jawab pertanyaan-pertanyaan berikut:
+    Anda bisa lihat pada [halaman screenshots](https://github.com/ejlp12/jboss-dv-workshop/issues/13), kemudian jawab pertanyaan-pertanyaan berikut:
 
     * Ada berapa datasources default dan apa fungsi masing-masing datasource tersebut?
     * Apa itu Infinispan? ada berapa Cache Container dan apa fungsi masing-masing?
@@ -91,7 +91,7 @@ Sebelum melakukan instalasi, mari kita liat dokumentasi yang tersedia untuk JDV:
     * Apa itu transport embedded?
     
 5.  Akses JDV Dashboard dengan menggunakan browser []()
-    Pastikan ada dapat login dengan username: dashboardAdmin dan password sesuai yang anda definisikan saat instalasi. Berikut adalah tampilan awal aplikasi Dashboard
+    Pastikan ada dapat login dengan username: `dashboardAdmin` dan password sesuai yang anda definisikan saat instalasi. Berikut adalah tampilan awal aplikasi Dashboard
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7459511/b6c2549c-f2c6-11e4-90f4-bbece137f33a.png)
 	
@@ -118,7 +118,7 @@ Jawab pertanyaan berikut:
   
 ## Pengaturan Data Grid (Infinispan) Caching 
 
-Berdasarkan dokumentasi ini, infinispan-cache dan infinispan-cache-dsl translators belum terkonfigurasi secara default, oleh karena itu kita perlu setup dengan cara menjalankan script JBoss CLI seperti berikut:
+Berdasarkan [dokumentasi ini](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.1/html/Installation_Guide/chap-Installing_JBoss_Data_Grid_Caching.html#Configure_JBoss_Data_Grid_Adaptors), infinispan-cache dan infinispan-cache-dsl translators belum terkonfigurasi secara default, oleh karena itu kita perlu setup dengan cara menjalankan script JBoss CLI seperti berikut:
 
 ```
 $ cd <DV_INSTALL_DIR>/jboss-eap-6.3/
@@ -136,7 +136,8 @@ Di [section ini](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Dat
 
 ## Penggunaan Database
 
-JDV memerlukan database untuk komponen berikut: ModeShape,  Dashboard Builder dan fungsi command/audit logging.
+JDV memerlukan database internal untuk komponen berikut: ModeShape,  Dashboard Builder dan fungsi command/audit logging.
+
 
 ## Instalasi dan konfigurasi untuk lingkungan Production
 
