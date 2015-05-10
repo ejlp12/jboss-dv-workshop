@@ -94,6 +94,73 @@ Kita akan menggunakan [SQuirreL](http://squirrel-sql.sourceforge.net/) sebagai S
 
 ## Memulai membuat Model Project
 
-1. 
+1.  Masih pada perspective Teiid, klik kanan pada "Model Explorer" View lalu pilih **New > Teiid Model Project** pada popup menu.
+    
+    Membuat "Teiid Model Project" juga bisa diakses dari menu File > New > ...
+    
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555335/ba508fe2-f772-11e4-8a49-24e5c16aff7c.png)
 
-  
+	Dapat juga diakses dari "Guides" View seperti berikut:
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555348/4b630122-f773-11e4-90ba-81fbc3b5d915.png)
+	
+2.  Pada window "New Model Project" berinama project name `teiid-file-test`
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7554746/93b7f6a4-f75e-11e4-9740-a3eaba4d875b.png)
+
+  	Kemudian klik Next.
+  	
+  	Pada step Project References, skip.. karena project ini tidak memerlukan project lain.
+  	
+  	![image](https://cloud.githubusercontent.com/assets/3068071/7555358/b336f68c-f773-11e4-8da2-1a7f6703d948.png)
+  	
+3.  Pada langkah ini kita bisa membuat beberapa folder (directory) untuk mengorganisasi file-file yang akan kita buat nantinya. Pembagian folder tersebut hanya sebuah *best practice* yang memudahkan kita jika nanti dalam satu project akan banyak file.
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555398/591e0fea-f774-11e4-8790-99dbc2dc09fe.png)
+
+	Klik Finish
+	
+	Hasilnya kita dapat lihat `teiid-file-test` Model Project di Model Explorer View
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555405/84f10c94-f774-11e4-992f-7cef2b2e1a4b.png)
+	
+### Membuat Source Model dari CVS File
+
+1.  Klik kanan pada Model Explorer View, dan pilih **Import** pada popup menu
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555421/276a9684-f775-11e4-9bb7-2e990a65df2a.png) 
+
+2.  Pada window Import, pilih folder Teiid, ekspansikan.. lalu pilih **File Source (Flat) >> Source and View Model**, klik Next
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555412/dba8b9b0-f774-11e4-896d-caab85975855.png)
+	
+3. 	Karena kita akan menggunakan file di lokal komputer, pilih "Flat file on local file sytem", klik Next
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555436/a555dc8e-f775-11e4-821b-cd342f94a746.png)
+
+4.  Pada step "Data File Source Selection" di blok "Data File Source", klik tombol **New...** untuk membuat data source baru.
+    Beri nama koneksi yang akan kita buat misalnya `User CSVFile (Local)", klik Next
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555459/7ebdd274-f776-11e4-9281-f552391fe6f0.png)
+
+5.  Pilih _home folder_ sesuai dengan letak file `test-user-data.csv`, misalnya di direktori `/home/jboss/data`. Contoh screenshot saya ini saya menyimpan file csv tersebut di direktori `/Users/ejlp12`.  
+	
+  	![image](https://cloud.githubusercontent.com/assets/3068071/7555481/0691de84-f777-11e4-8371-16a560f45a73.png)
+
+	Pilih "CSV" sebagai _flat file type_ 
+	
+	File type yang lain yang bisa dipilih adalah SSV (semicolon-separated value), PSV (pipe-separated value), TSV (tab-separated value).
+	
+	Anda juga perlu menspesifikasikan konfigurasi berikut:
+		- apakah baris pertama di file adalah nama kolom?
+		- apakah barus kedua merupakan tipe data?
+		- apakah jika ada data kolom dalam baris yang kosong akan dianggap kolom dengan data null (trainiling null coloumns)?
+
+6.  Test koneksi, klik tombol "Test Connection", klik tombol Finish
+7.  Kita akan kembali ke langkah "Data File Source Selection", tapi saat ini file-file yang ada di direktori `/home/jboss/data` akan ditampilkan, pilih file `test-user-data.csv` dengan mengkliknya pada daftar _Data File Name_, lalu klik Next
+
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555527/b3f4f114-f778-11e4-85cc-7a6394d5c374.png)
+
+8.
+
+
