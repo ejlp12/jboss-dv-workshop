@@ -145,7 +145,7 @@ Untuk mempersiapkan JDV pada lingkungan Production, instalasi sederhana dan menj
 
 ### Port yang digunakan
 
-Port yang digunakan JDV adalah [port standard JBoss EAP](https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html/Administration_and_Configuration_Guide/Network_Ports_Used_By_JBoss_Enterprise_Application_Platform_62.html), serta port 31000 (JDBC) & 35432 (ODBC)
+Port yang digunakan JDV adalah [port standard JBoss EAP](https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html/Administration_and_Configuration_Guide/Network_Ports_Used_By_JBoss_Enterprise_Application_Platform_62.html), serta port *31000* (JDBC) & *35432* (ODBC)
 
 [Referensi](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.1/html/Administration_and_Configuration_Guide/Ports_Used_by_Red_Hat_JBoss_Data_Virtualization.html)
 
