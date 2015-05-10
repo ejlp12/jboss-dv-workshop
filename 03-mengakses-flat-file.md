@@ -145,7 +145,7 @@ Kita akan menggunakan [SQuirreL](http://squirrel-sql.sourceforge.net/) sebagai S
 
 5.  Pilih _home folder_ sesuai dengan letak file `test-user-data.csv`, misalnya di direktori `/home/jboss/data`. Contoh screenshot saya ini saya menyimpan file csv tersebut di direktori `/Users/ejlp12`.  
 	
-  	![image](https://cloud.githubusercontent.com/assets/3068071/7555481/0691de84-f777-11e4-8371-16a560f45a73.png)
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555481/0691de84-f777-11e4-8371-16a560f45a73.png)
 
 	Pilih "CSV" sebagai _flat file type_ 
 	
@@ -157,9 +157,13 @@ Kita akan menggunakan [SQuirreL](http://squirrel-sql.sourceforge.net/) sebagai S
 		- apakah jika ada data kolom dalam baris yang kosong akan dianggap kolom dengan data null (trainiling null coloumns)?
 
 6.  Test koneksi, klik tombol "Test Connection", klik tombol Finish
-7.  Kita akan kembali ke langkah "Data File Source Selection", tapi saat ini file-file yang ada di direktori `/home/jboss/data` akan ditampilkan, pilih file `test-user-data.csv` dengan mengkliknya pada daftar _Data File Name_, lalu klik Next
 
-	![image](https://cloud.githubusercontent.com/assets/3068071/7555527/b3f4f114-f778-11e4-85cc-7a6394d5c374.png)
+7.  Kita akan kembali ke langkah "Data File Source Selection", tapi saat ini file-file yang ada di direktori `/home/jboss/data` akan ditampilkan, pilih file `test-user-data.csv` dengan mengkliknya pada daftar _Data File Name_.
+	
+	Ubah **Location** dan **Name** dari "Source Model Definition" seperti terlihat pada gambar.
+	Lalu klik Next
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/7555641/e6ade6b2-f77b-11e4-9da9-a1b19bfd9a38.png)
 
 8.  Langkah berikutnya hanya mengkonfirmasi isi file, klik Next
 	
