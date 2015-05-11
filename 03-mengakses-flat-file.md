@@ -224,9 +224,9 @@ di-deploy ke JDV server.
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556839/b4763354-f7ab-11e4-96fc-e17acdc20b39.png)
 	
-	(1) Adalah tombol untuk melakukan synchronization jika ada file Model (`xmi`) yang ada dalam list (2) berubah
-	(2) adalah list file model yang masuk dalam bundle file `VDB`, jika kita ingin menambahkan file Model baru bisa klik ikon dibawahnya (3)
-	(3) Adalah tombol untuk menambah atau menghapus file Model
+	* (1) Adalah tombol untuk melakukan synchronization jika ada file Model (`xmi`) yang ada dalam list (2) berubah
+	* (2) adalah list file model yang masuk dalam bundle file `VDB`, jika kita ingin menambahkan file Model baru bisa klik ikon dibawahnya (3)
+	* (3) Adalah tombol untuk menambah atau menghapus file Model
 
 6.  Depoy file VDB dengan mengklik kanan `companyname-user.vdb` kemudian memilih menu Modeling > Deploy
 
