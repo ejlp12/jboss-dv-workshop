@@ -258,11 +258,12 @@ di-deploy ke JDV server.
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556930/9f79cd9a-f7af-11e4-8baf-68684f155a5a.png)
 	
 3.  Blok SQL text tersebut lalu klik kanan dan pilih "Execute selected text".
+	Jika sukses, hasilnya akan kita lihat di "SQL Result" View seperti ini:
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7557316/4c84b906-f7b9-11e4-8084-3bdf8b7041da.png)
 
 
-	Hasilnya akan muncul error seperti ini, karena kolom birth_date tidak bisa dikonversi ke tipe data `DATE`
+	Jika anda mencoba mengkonversi date pada saat membuat Model, maka akan muncul error seperti ini, karena kolom birth_date tidak bisa dikonversi ke tipe data `DATE`
 	
 	```
 	org.teiid.runtime.client.TeiidClientException: java.lang.RuntimeException: Remote org.teiid.core.TeiidProcessingException:
@@ -271,6 +272,6 @@ di-deploy ke JDV server.
 	
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556944/66379660-f7b0-11e4-91af-6da950ad2e54.png)
 
-	
-4.  
+## Eksplorasi file Source Model dan View Model
+
 
