@@ -1,4 +1,4 @@
-== Instalasi Database PostgreSQL
+## Instalasi Database PostgreSQL
 
 Sebelum melakukan latihan untuk membuat Virtual Database (VDB) yang mengakses database (RDBMS), kita akan setup dahulu database dan data yang akan dipergunakan.
 
