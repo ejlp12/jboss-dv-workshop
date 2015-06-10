@@ -1,8 +1,8 @@
 ## Tabel sebagai sumber data
 
-## Membuat Source Model 
-
 Sebelum mengikuti latihan ini, sebelumnya ada harus sudah menyiapkan database dan data yang akan digunakan dengan mengikuti langkah sebelumnya pada dokumen [04-mengkases-database-01.md](/04-mengkases-database-01.md).
+
+### Membuat Source Model 
 
 Sekarang saatnya kita membuat project untuk menakses tabel sebagai sumber data JDV. Kita akan membuat membuat virtual table untuk `tbl_user` yang ada di database PostgreSQL
 
@@ -53,7 +53,7 @@ Sekarang saatnya kita membuat project untuk menakses tabel sebagai sumber data J
    
    Karena kita hanya akan mengakses tabel saja dari JDV maka pilihlah Table di daftar Table Types
    
-   ![image](https://cloud.githubusercontent.com/assets/3068071/8051805/0ef75748-0eab-11e5-86aa-c0dc64b4778c.png)
+   ![image](https://cloud.githubusercontent.com/assets/3068071/8072278/0c98bc60-0f3e-11e5-8651-9ff3d0d184c4.png)
    
    Klik Next.
    
@@ -70,3 +70,44 @@ Sekarang saatnya kita membuat project untuk menakses tabel sebagai sumber data J
    Jadilah anda mendapatkan sebuah Source Model seperti ini:
    
    ![image](https://cloud.githubusercontent.com/assets/3068071/8051972/b6c9b168-0eac-11e5-92b0-c1719c6dd94d.png)
+
+   Selesai. Anda sudah membuat source model yang siap di-build menjadi VDB dan di-deploy ke JDV (Teiid) server.
+   
+   
+### Tes Source Model dengan Mem-preview Data
+
+Kita dapat melakukan preview data dari source model yang sudah kita buat. Pada saat kita melakukan preview, project yang kita bikin akan di-build menjadi file VDB dan di-deploy ke Teiid server. Oleh karena itu sebuah JDV (Teiid) Server harus sudah kita setup di linkungan JBDS (Eclipse) yang kita pakai. VDB yang di-generate adalah temporary VDB dan kita tidak bisa melihat file tersebut di JBDS.
+
+Untuk melakukan preview data ikuti langkah berikut:
+
+1.  Klik kanan `tbl_user` kemudian pilih Modeling > Preview Data, seperti gambar berikut
+
+    ![image](https://cloud.githubusercontent.com/assets/3068071/8072342/d5994e0e-0f3e-11e5-9bd4-4723ec0e50b2.png)
+
+2.  Jika Teiid server belum didefinisikan di JBDS maka anda akan mendapatkan warning seperti berikut:
+    
+    ![image](https://cloud.githubusercontent.com/assets/3068071/8072371/3e93d5b4-0f3f-11e5-8892-cd8e5c0e0390.png)
+
+    Kita bisa lihat di Model Explorer view bagian bawah bahwa "No default server defined", ini berarti belum ada server yang didefinisikan.
+    
+    Klik tombol Yes pada dialog window tersebut. Lalu setup sebuah Teiid server, ikuti langkah di [modul sebelumnya](/03-mengakses-flat-file.md)
+
+3.  Jika serevr sudah dijalankan. Maka Preview (SQL Result) akan tampil seperti berikut:
+    
+    ![image](https://cloud.githubusercontent.com/assets/3068071/8072524/464e75c8-0f41-11e5-9736-249afd988106.png)
+
+    Ini artinya source model kita berhasil dideploy dan JBDS dapat melakukan query (JDBC) ke Teiid server untuk mendapatkan data. Teiid Server dapat mengakses tabel `tbl_user` di PostgreSQL
+    
+    Query yang dijalankan JBDS adalah 
+    
+    ```
+    select * from "PostgreSQL_UserDB"."tbl_user"
+    ```
+    
+    Kita bisa lihat query tersebut di 'SQL Result' view atau di 'Teiid Execution Plan' view
+    
+    ![image](https://cloud.githubusercontent.com/assets/3068071/8073003/615ae1b4-0f49-11e5-8729-39de6f0a32ca.png)
+    
+    
+    
+    
