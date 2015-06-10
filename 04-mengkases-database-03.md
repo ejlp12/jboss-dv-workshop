@@ -70,5 +70,5 @@ Anda telah membuat sebuah source model yang merupakan virtual data source dari s
 
    Jarang sekali kita perlu mengubah translator properties tapi jika dibutuhkan kita bisa set dengan cara: mengklik kanan `PostgreSQL_UserDB.xmi` lalu pilih Modeling > Edit Translator Overrides
    
-   ![image](https://cloud.githubusercontent.com/assets/3068071/8074514/f434b816-0f5d-11e5-8305-ac1e6d5175ae.png)
+   ![image](https://cloud.githubusercontent.com/assets/3068071/8073210/36461996-0f4c-11e5-80a3-983ae3896bc8.png)
    
