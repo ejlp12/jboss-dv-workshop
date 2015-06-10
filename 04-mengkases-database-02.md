@@ -106,7 +106,7 @@ Untuk melakukan preview data ikuti langkah berikut:
     
     Kita bisa lihat query tersebut di 'SQL Result' view atau di 'Teiid Execution Plan' view
     
-    ![image](https://cloud.githubusercontent.com/assets/3068071/8073003/615ae1b4-0f49-11e5-8729-39de6f0a32ca.png)
+    ![image](https://cloud.githubusercontent.com/assets/3068071/8073021/9cbba6d0-0f49-11e5-8944-b9b83f9db010.png)
     
     
     
