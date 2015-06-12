@@ -67,6 +67,8 @@ Sekarang saatnya kita membuat project untuk menakses tabel sebagai sumber data J
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/8051952/6f7b5fbe-0eac-11e5-8b07-e84a3654732c.png)
    
+   > Opsi 'Include Cost Statistics' jika dipilih berarti akan menset **table cardinalities** dan informasi cost lainnya pada saat schema database diimport. Teiid Query planner akan menggunakan informasi cost untuk menentukan query plans yang paling efisien. Jika schema yang diimport cukup besar atau datanya banyak maka memilih opsi ini akan memperlama proses import. Referensi: https://developer.jboss.org/wiki/TeiidDesigner82WhatsNew#sthash.4My3hW0w.dpuf
+   
    Jadilah anda mendapatkan sebuah Source Model seperti ini:
    
    ![image](https://cloud.githubusercontent.com/assets/3068071/8051972/b6c9b168-0eac-11e5-92b0-c1719c6dd94d.png)
