@@ -25,7 +25,7 @@ Anda telah membuat sebuah source model yang merupakan virtual data source dari s
     5. Support Update: True atau false, fitur ini juga akan tergantung pada kemampuan adapter untuk update ke sumber data. Untuk file adapter yang tidak support update maka tidak ada gunanya nilai property ini diset true
     6. Materialized: True atau false, jika kita set true berarti data tabel akan disimpan di cache (memory) atau di tabel lain
     7. Logical Relationships
-    8. Materialized Table: Nama dari materialized table yang akan menyimpan data
+    8. Materialized Table: Nama dari materialized table (link ke Soure Model lain) yang digunakan yang akan menyimpan data cache di database.
     9. Object URI
     10. Relational: Native Query
     11. Description
