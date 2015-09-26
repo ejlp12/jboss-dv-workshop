@@ -53,7 +53,8 @@
 
 ### Menambahkan Tabel Baru ke Source Model
 
-Sampai saat ini anda sekarusnya punya dua buah Source Model, yaitu
+Sampai saat ini anda sekarusnya punya dua buah Source Model, yaitu:
+
     1. `PostgreSQL_UserDB.xmi` yang memiliki 1 tabel
     2. `PostgreSQL_UserAddress.xmi`yang memiliki 3 tabel
     
