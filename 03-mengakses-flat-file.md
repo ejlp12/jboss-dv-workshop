@@ -203,7 +203,7 @@ di-deploy ke JDV server.
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556733/247ad5fa-f7a8-11e4-8075-133c07050087.png)
 
-3.  Berinama VDB, kemudian klik tombol Add untuk memilih Models yang akan kita paketkan dalam file VDB
+3.  Beri nama VDB, kemudian klik tombol Add untuk memilih Models yang akan kita paketkan dalam file VDB
 	
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556777/9eaacb18-f7a9-11e4-99a9-fb98adcd500c.png)
 
@@ -213,20 +213,21 @@ di-deploy ke JDV server.
 
 	Lalu klik Finish
 	
-4.  Kita dapat lihat di project `teiid-file-test` sudah terbangun sebuah file dengan mana `companyname-user.vdb`
+4.  Kita dapat lihat di project `teiid-file-test` sudah terbangun (generated) sebuah file dengan mana `companyname-user.vdb`
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556792/1b1397e8-f7aa-11e4-9e06-d1f796a73f88.png)
 	
 	> VDB pada dasarnya adalah file JAR (ZIP) yang berisi file `xmi` beserta metadata `vdb.xml`. Setiap kali kita menambah
 	> file `xmi` atau merubah file yang ada dan ingin kita deploy maka kita perlu men-generate ulang (synchronize) file `VDB`
 
-5.  Sebuah ediot file VDB dapat kita lihat juga sebagai berikut, jika editor seperti ini tidak muncul coba klik dua kali file `companyname-user.vdb`
+5.  Sebuah editor file VDB dapat kita lihat juga sebagai berikut, jika editor seperti ini tidak muncul coba klik dua kali file `companyname-user.vdb`
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7556839/b4763354-f7ab-11e4-96fc-e17acdc20b39.png)
 	
 	* (1) Adalah tombol untuk melakukan synchronization jika ada file Model (`xmi`) yang ada dalam list (2) berubah
 	* (2) adalah list file model yang masuk dalam bundle file `VDB`, jika kita ingin menambahkan file Model baru bisa klik ikon dibawahnya (3)
 	* (3) Adalah tombol untuk menambah atau menghapus file Model
+	* (4) Dibagian paling bawah juga ada tab "Advanced" untuk men-setting beberapa konfigurasi dari VDB seperti user/role, beberapa properties, custom variables atau properties dan translator setting untuk meng-override (menimpa) _default translator setting_.
 
 6.  Depoy file VDB dengan mengklik kanan `companyname-user.vdb` kemudian memilih menu Modeling > Deploy
 
