@@ -90,7 +90,8 @@ Sebelum melakukan instalasi, mari kita liat dokumentasi yang tersedia untuk JDV:
     * Ada berapa jenis transport yang didukung oleh JDV agar client application bisa terkoneksi ke JDV server?
     * Apa itu transport embedded?
     
-5.  Akses JDV Dashboard dengan menggunakan browser []()
+5.  Akses JDV Dashboard dengan menggunakan browser pada alamat URL ini: [http://localhost:8080/dashboard/](http://localhost:8080/dashboard/)
+
     Pastikan ada dapat login dengan username: `dashboardAdmin` dan password sesuai yang anda definisikan saat instalasi. Berikut adalah tampilan awal aplikasi Dashboard
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7459511/b6c2549c-f2c6-11e4-90f4-bbece137f33a.png)
