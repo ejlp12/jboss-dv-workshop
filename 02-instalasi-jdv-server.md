@@ -1,9 +1,14 @@
 # Instalasi JBoss Data Virtualization Server
 
-Berikut file-file yang diperlukan untuk installasi
+Berikut file-file yang diperlukan untuk installasi:
 
-*  **jboss-dv-installer-6.1.0.redhat-3.jar** (File installer JDV versi 6.1.0)
+*  **jboss-dv-installer-6.1.0.redhat-3.jar** (File installer JDV versi 6.1.0) 
 *  **PREVIEW-DataVirtWebUI-03Apr2015.war** (Opsional - Komponen WebUI ini hanya untuk _preview_)
+
+File-file tersebut dapat didownload di:
+
+[http://www.jboss.org/products/datavirt/download/](http://www.jboss.org/products/datavirt/download/)
+
 
 > Pastikan Operating System yang digunakan, JDK yang terinstal sudah sesuai dengan dokumen [JDV Supported Configuration](https://access.redhat.com/articles/703663)
 
