@@ -12,6 +12,8 @@ Minor release ini tidak difokuskan untuk penambahan fitur baru tapi lebih diteka
 File yang dibutuhkan:
 
 - File installer dapat didownload di [http://www.jboss.org/products/datavirt/download](http://www.jboss.org/products/datavirt/download) atau dari Customer Support Portal (CSP) at https://access.redhat.com/
+   ![image](https://cloud.githubusercontent.com/assets/3068071/10267525/fd71006e-6ac1-11e5-8a26-a6329cc1e786.png)
+
 - File installer EAP 6.4 yang dapat didownload di [http://www.jboss.org/products/eap/download/](http://www.jboss.org/products/eap/download/) dan juga file [EAP 6.4.3 roll up patch](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=39353)
 
 Dokumentasi JDV versi 6.2 dapat diakses disini [https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.2/index.html](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.2/index.html)
