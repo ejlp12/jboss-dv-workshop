@@ -19,13 +19,15 @@ File yang dibutuhkan:
 
 Dokumentasi JDV versi 6.2 dapat diakses disini [https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.2/index.html](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.2/index.html)
 
+## Instalasi 
+
 Cara instalasi JBoss Data Virtualization 6.2:
 
 1. Instal EAP 6.4 
 2. Instal patch EAP 6.4.3 (`jboss-eap-6.4.3-patch.zip`) 
 3. Instal JBoss DV 6.2 
 
-# Instalasi JBDS - Data Virtualization 6.2 tooling (Teiid Designer 9.0.3.Final) 
+## Instalasi JBDS - Data Virtualization 6.2 tooling (Teiid Designer 9.0.3.Final) 
 
 Download JBDS 8.1.0 : https://www.jboss.org/products/devstudio/download/
 
