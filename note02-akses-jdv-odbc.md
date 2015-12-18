@@ -1,3 +1,5 @@
+# Akses ODBC ke JDV (Teiid)
+
 JDV dapat diakses bukan hanya dari JDBC, SOAP Web Service, REST (OData) saja, tapi juga dapat diakses menggunakan ODBC.
 
 Apakah JDV perlu diinstal di Windows untuk bisa diakses menggunakan ODBC? 
