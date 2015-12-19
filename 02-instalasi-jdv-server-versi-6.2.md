@@ -29,8 +29,10 @@ Cara instalasi JBoss Data Virtualization 6.2:
 
 ## Instalasi JBDS - Data Virtualization 6.2 tooling (Teiid Designer 9.0.3.Final) 
 
+Untuk development kita membutuhkan JBoss Developer Studio (JBDS) atau Eclipse.
+
 Download JBDS 8.1.0 : https://www.jboss.org/products/devstudio/download/
 
-Add DV tooling via the JBoss Central panel select the Software/Updates tab, check JBoss Data Virtualization option and click the Install/Update button.
+Tambahan DV tooling lewar "JBoss Central" panel, pilih tab "Software/Updates" , klik cekbox opsi "JBoss Data Virtualization" lalu klik "Install/Update" button.
 
-You could also install Teiid Designer 9.0.3 into an 8.0/8.1 version using this update site [https://devstudio.redhat.com/updates/8.0/](https://devstudio.redhat.com/updates/8.0/)
+Anda juga dapat menginstal Teiid Designer 9.0.3 ke JBDS melalu update site berikut [https://devstudio.redhat.com/9.0/stable/updates/](https://devstudio.redhat.com/9.0/stable/updates/)
