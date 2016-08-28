@@ -16,3 +16,12 @@ teiidUser=user,odata,rest
 
    login with admin/admin
 
+## UPDATE:
+
+Baca dahulu halaman ini [Data Service Builder](http://teiiddesigner.jboss.org/ds_builder_summary.html) sebagai pengenalan tentang apa itu Data Service Builder.
+
+Data Services Builder, adalah alat berbasis web untuk menedit, mengelola dan melakukan test data services terhadap data anda lewat JDV (Teiid runtime framework).
+
+Untuk download tool dan cara instalasi bisa dibaca dihalaman ini [https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder](https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder)
+
+
