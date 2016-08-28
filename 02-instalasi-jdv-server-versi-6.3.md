@@ -58,6 +58,8 @@ Cara instalasi JBoss Data Virtualization 6.3:
    
    Untuk instalasi mode GUI, jalankan installer dengan perintah `java -jar jboss-dv-6.3.0-installer.jar`
    Jika ingin menggunakan mode console (tanpan GUI), gunakan perintah `java -jar jboss-dv-6.3.0-installer.jar -console`
+   
+   Untuk selanjutnya proses sama seperti [instalasi versi 6.1](02-instalasi-jdv-server.md)
 
 ## Dokumentasi JDV 6.3
 
