@@ -6,17 +6,17 @@
 
  Release versi 6.3 ini memiliki beberapa fitur baru pada versi ini adalah:
 
-In-memory technologies for Big Data processing
+* In-memory technologies for Big Data processing
  - Apache Spark
  - JDG as materialization target for JDV
  - SAP HANA
  - HPE Vertica
-Development and Deployment productivity
+* Development and Deployment productivity
  - OData V4
  - OAuth using RH-SSO
  - Teiid Designer usability improvements
  - VDB Builder CLI (technical preview only)
-Big Data and Cloud data sources
+* Big Data and Cloud data sources
  - Apache Cassandra
  - Apache HBase
  - Amazon RedShift
