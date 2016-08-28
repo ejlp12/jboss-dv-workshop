@@ -24,17 +24,26 @@
  - Geospatial Support
  - OSIsoft PI (technical preview only)
 
-[JDV 6.3 release notes](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/6.3/paged/release-notes/)
+Lebih detail release notes bisa dibaca di [JDV 6.3 release notes](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/6.3/paged/release-notes/)
 
-File yang dibutuhkan:
+File yang dibutuhkan untuk instalasi:
 
-- File installer dapat didownload di [http://developers.redhat.com/products/datavirt/download/?referrer=jbd](http://developers.redhat.com/products/datavirt/download/?referrer=jbd) atau dari Customer Support Portal (CSP) at https://access.redhat.com/
+- File installer dapat didownload di:
+  
+   [http://developers.redhat.com/products/datavirt/download/?referrer=jbd](http://developers.redhat.com/products/datavirt/download/?referrer=jbd) 
+    
+    atau di 
+
+   Customer Support Portal (CSP) at https://access.redhat.com/
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/18037488/db7c88e2-6daf-11e6-8eca-d8f19762b20a.png)
 
-- File installer EAP 6.4 yang dapat didownload di [http://developers.redhat.com/products/eap/download/](http://developers.redhat.com/products/eap/download/) dan juga file [EAP 6.4.9 roll up patch](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=39353)
+- File installer EAP 6.4 yang dapat didownload di [http://developers.redhat.com/products/eap/download/](http://developers.redhat.com/products/eap/download/)
 
-Dokumentasi JDV versi 6.3 dapat diakses disini [https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.2/index.html](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.2/index.html)
+    dan juga file [EAP 6.4.9 roll up patch](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=39353)
+
+
+Dokumentasi JDV versi 6.3 dapat diakses disini [https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3)
 
 ## Instalasi 
 
