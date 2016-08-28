@@ -4,7 +4,7 @@
 > Instalasi JDV versi 6.3 sedikit berbeda dengan instalasi versi 6.1, karena proses instalasi JBoss EAP dilakukan terpisah. Jadi ada dua kali proses instalasi.
 
 
- Release versi 6.3 ini memiliki beberapa fitur baru pada versi ini adalah:
+ Release versi 6.3 ini memiliki beberapa fitur baru, yaitu:
 
 * In-memory technologies for Big Data processing
  - Apache Spark
