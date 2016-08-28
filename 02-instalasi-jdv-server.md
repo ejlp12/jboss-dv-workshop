@@ -1,4 +1,6 @@
-> Untuk instalasi JDV 6.2 agak berbeda dengan versi 6.1 lihat file [02-instalasi-jdv-server-versi-6.2.md](02-instalasi-jdv-server-versi-6.2.md)
+> Untuk instalasi JDV 6.2 atau 6.3 agak berbeda dengan versi 6.1 
+> lihat file [02-instalasi-jdv-server-versi-6.2.md](02-instalasi-jdv-server-versi-6.2.md)
+  dan file [02-instalasi-jdv-server-versi-6.3.md](02-instalasi-jdv-server-versi-6.3.md)
 
 # Instalasi JBoss Data Virtualization 6.1 Server 
 
