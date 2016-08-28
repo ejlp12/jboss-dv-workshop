@@ -22,7 +22,7 @@ Baca dahulu halaman ini [Data Service Builder](http://teiiddesigner.jboss.org/ds
 
 Data Services Builder, adalah alat berbasis web untuk menedit, mengelola dan melakukan test data services terhadap data anda lewat JDV (Teiid runtime framework).
 
-Untuk download tool dan cara instalasi bisa dibaca dihalaman ini [https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder](https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder)
+Untuk download tool dan cara instalasi bisa dibaca dihalaman ini [https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder](https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder) - 287MB
 
 
 Download [http://download.jboss.org/teiid/web/dsbuilder/DataserviceBuilder-07152016-install.zip](http://download.jboss.org/teiid/web/dsbuilder/DataserviceBuilder-07152016-install.zip)
