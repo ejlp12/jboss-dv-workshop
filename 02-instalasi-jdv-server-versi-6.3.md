@@ -42,9 +42,6 @@ File yang dibutuhkan untuk instalasi:
 
     dan juga file [EAP 6.4.9 roll up patch](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=39353)
 
-
-Dokumentasi JDV versi 6.3 dapat diakses disini [https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3)
-
 ## Instalasi 
 
 Cara instalasi JBoss Data Virtualization 6.3:
@@ -59,7 +56,12 @@ Cara instalasi JBoss Data Virtualization 6.3:
 
 3. Instal JBoss DV 6.3 
    
-    
+   Untuk instalasi mode GUI, jalankan installer dengan perintah `java -jar jboss-dv-6.3.0-installer.jar`
+   Jika ingin menggunakan mode console (tanpan GUI), gunakan perintah `java -jar jboss-dv-6.3.0-installer.jar -console`
+
+## Dokumentasi JDV 6.3
+
+Dokumentasi JDV versi 6.3 dapat diakses disini [https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3)
 
 ## Instalasi JBDS - [Data Virtualization tooling (Teiid Designer)](http://teiiddesigner.jboss.org/designer_summary/downloads.html) 
 
