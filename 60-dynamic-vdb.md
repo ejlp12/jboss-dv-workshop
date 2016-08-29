@@ -1,5 +1,5 @@
 ### Create Data Source
-Open JBoss EAP Administrator Console
+Buka  JBoss EAP Administrator Console http://localhost:9090
 
 Configuration > Connector > Data Source, [Add]
 
@@ -17,7 +17,7 @@ Test Connection -> Done
 
 ### Create VDB
 
-Books.vdb
+Buat file dengan nama `Quickstart-vdb.xml`:
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <vdb name="Quickstart" version="1">
@@ -31,3 +31,9 @@ Books.vdb
     </model>
 </vdb>
 ```
+
+Deploy dari Administration console
+
+Deployments, [Add]
+
+
