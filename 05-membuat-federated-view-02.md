@@ -3,7 +3,7 @@
 >
 > Setelah query jadi yaitu bisa dieksekusi dengan sukses dan data hasilnya sesuai yang kita harapkan, barulah kita membuat View Model. 
 
-1. Buat VDB dari project yang kita buat sebelumnya:
+1. Buatlah VDB dari project yang sudah kita buat sebelumnya:
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/18109670/0631b4b6-6f3d-11e6-9aeb-2aa5f5333c49.png)
 
