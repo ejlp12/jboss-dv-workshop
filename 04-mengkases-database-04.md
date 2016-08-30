@@ -53,12 +53,12 @@
 
 ### Menambahkan Tabel Baru ke Source Model
 
-Sampai saat ini anda sekarusnya punya dua buah Source Model, yaitu:
+Sampai saat ini anda seharusnya punya dua buah Source Model, yaitu:
 
-    1. `PostgreSQL_UserDB.xmi` yang memiliki 1 tabel
-    2. `PostgreSQL_UserAddress.xmi`yang memiliki 3 tabel
+1. `PostgreSQL_UserDB.xmi` yang memiliki 1 tabel
+2. `PostgreSQL_UserAddress.xmi`yang memiliki 3 tabel
     
-Bagaimana jika kita tidak ingin membuat Source Model baru jika ingin menambahkan definisi tabel baru. Misalnya kita ingin menambahkan `tbl_address` dan `tbl_user_address` ke `PostgreSQL_UserDB.xmi`.
+Bagaimana jika kita tidak ingin membuat Source Model baru, tapi ingin menambahkan `tbl_address` dan `tbl_user_address` ke `PostgreSQL_UserDB.xmi`.
 
 Kita dapat menambahkan __Child__ di Source Model dengan cara mengklik kanan `PostgreSQL_UserDB.xmi`, pilih New Child > Table. Tapi cara ini menyulitkan karena kita menambahkan tabel secara manual, kolom Primary/Forign Key pun didefinisikan manual.
 
