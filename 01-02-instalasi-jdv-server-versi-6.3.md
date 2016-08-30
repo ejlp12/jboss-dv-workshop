@@ -50,7 +50,7 @@ Cara instalasi JBoss Data Virtualization 6.3:
    
    Bisa dilihat disini caranya: [lab0-instalasi-jboss-eap.md](https://github.com/ejlp12/jboss-eap-workshop-site/blob/master/lab0-instalasi-jboss-eap.md)
 
-2. Instal patch EAP 6.4.9 (`jboss-eap-6.4.9-patch.zip`) 
+2. **OPSIONAL** Instal patch EAP 6.4.9 (`jboss-eap-6.4.9-patch.zip`) 
    
    Bisa dilihat disini caranya: [lab5-patching.md](https://github.com/ejlp12/jboss-eap-workshop-site/blob/master/lab5-patching.md)
 
@@ -65,12 +65,4 @@ Cara instalasi JBoss Data Virtualization 6.3:
 
 Dokumentasi JDV versi 6.3 dapat diakses disini [https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/?version=6.3)
 
-## Instalasi JBDS - [Data Virtualization tooling (Teiid Designer)](http://teiiddesigner.jboss.org/designer_summary/downloads.html) 
 
-Untuk development kita membutuhkan JBoss Developer Studio (JBDS) atau Eclipse.
-
-Download JBDS 9.1.0 GA : [jboss-devstudio-9.1.0.GA-installer-standalone.jar](https://developers.redhat.com/download-manager/file/jboss-devstudio-9.1.0.GA-installer-standalone.jar)
-
-Tambahan DV tooling lewar "JBoss Central" panel, pilih tab "Software/Updates" , klik checkbox opsi "JBoss Data Virtualization" lalu klik "Install/Update" button.
-
-Anda juga dapat menginstal Teiid Designer 10.1.0 ke JBDS melalu update site berikut [http://download.jboss.org/jbosstools/updates/release/mars/integration-stack/teiiddesigner/10.1.0.Final/](http://download.jboss.org/jbosstools/updates/release/mars/integration-stack/teiiddesigner/10.1.0.Final/)
