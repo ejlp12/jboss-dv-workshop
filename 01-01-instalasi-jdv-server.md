@@ -7,7 +7,7 @@ Berikut file-file yang diperlukan untuk installasi:
 
 File-file tersebut dapat didownload di:
   
-   [http://developers.redhat.com/products/datavirt/download/?referrer=jbd](http://developers.redhat.com/products/datavirt/download/?referrer=jbd) 
+   [http://developers.redhat.com/products/datavirt/download/](http://developers.redhat.com/products/datavirt/download/)
 
 atau di 
 
