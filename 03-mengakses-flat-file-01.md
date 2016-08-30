@@ -139,7 +139,9 @@ Kita akan menggunakan [SQuirreL](http://squirrel-sql.sourceforge.net/) sebagai S
 	![image](https://cloud.githubusercontent.com/assets/3068071/7555436/a555dc8e-f775-11e4-821b-cd342f94a746.png)
 
 4.  Pada step "Data File Source Selection" di blok "Data File Source", klik tombol **New...** untuk membuat data source baru.
-    Beri nama koneksi yang akan kita buat misalnya `User CSVFile (Local)", klik Next
+    Beri nama koneksi yang akan kita buat misalnya `User CSVFile (Local)".
+   
+    Klik Next
 
 	![image](https://cloud.githubusercontent.com/assets/3068071/7555459/7ebdd274-f776-11e4-9281-f552391fe6f0.png)
 
@@ -160,7 +162,10 @@ Kita akan menggunakan [SQuirreL](http://squirrel-sql.sourceforge.net/) sebagai S
 
 7.  Kita akan kembali ke langkah "Data File Source Selection", tapi saat ini file-file yang ada di direktori `/home/jboss/data` akan ditampilkan, pilih file `test-user-data.csv` dengan mengkliknya pada daftar _Data File Name_.
 	
-	Ubah **Location** dan **Name** dari "Source Model Definition" seperti terlihat pada gambar.
+	Kita akan simpan Source Model file ini di `teiid-file-test/sources` dan kita berinama `UserSource` jadi,
+  ubahlah **Location** menjadi `teiid-file-test/sources` dan **Name** dari "Source Model Definition" seperti terlihat pada gambar.
+  
+
 	Lalu klik Next
 	
 	![image](https://cloud.githubusercontent.com/assets/3068071/7555641/e6ade6b2-f77b-11e4-9da9-a1b19bfd9a38.png)
