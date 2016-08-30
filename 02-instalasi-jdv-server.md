@@ -125,6 +125,10 @@ Jawab pertanyaan berikut:
 
     [Baca juga...](https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.1/html/Development_Guide_Volume_2_Governance/chap-Governance_Overview.html)
 
+
+
+
+
   
 ## Pengaturan Data Grid (Infinispan) Caching 
 
