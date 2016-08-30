@@ -23,7 +23,7 @@
 3. Deploy VDB
 
    
-![image](https://cloud.githubusercontent.com/assets/3068071/18109837/27b019ba-6f3e-11e6-9a36-2c41894037d5.png)
+   ![image](https://cloud.githubusercontent.com/assets/3068071/18109837/27b019ba-6f3e-11e6-9a36-2c41894037d5.png)
 
    Pastikan VDB sukses ter-deploy dan statusnya **ACTIVE**
 
@@ -50,7 +50,7 @@
    Hasilnya akan terlihat seperti ini:
 
    
-![image](https://cloud.githubusercontent.com/assets/3068071/18110112/fe407622-6f3f-11e6-8668-50f91904cb15.png)
+   ![image](https://cloud.githubusercontent.com/assets/3068071/18110112/fe407622-6f3f-11e6-8668-50f91904cb15.png)
 
 6. Lakukan eksekusi query untuk 
 
@@ -65,7 +65,8 @@
    UNION
    SELECT first_name, last_name, parsedate(birth_date,'dd-MM-yyyy'), location FROM UserView.tbl_user
    ```
- Hasilnya sepert ini:
+   
+   Hasilnya sepert ini:
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/18110247/090001bc-6f41-11e6-85ad-0ae59829e739.png)
 
