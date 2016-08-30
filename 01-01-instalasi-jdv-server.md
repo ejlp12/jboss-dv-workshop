@@ -2,8 +2,8 @@
 
 Berikut file-file yang diperlukan untuk installasi:
 
-*  **jboss-dv-installer-6.3.0.jar** (File installer JDV versi 6.3.0) 
-*  **jboss-eap-installer-6.4.0.zip** (File installer JBoss EAP versi 6.4.0)
+-  **jboss-dv-installer-6.3.0.jar** (File installer JDV versi 6.3.0) 
+-  **jboss-eap-installer-6.4.0.zip** (File installer JBoss EAP versi 6.4.0)
 
 File-file tersebut dapat didownload di:
   
