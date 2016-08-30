@@ -27,9 +27,9 @@ Sebelum melakukan instalasi, mari kita liat dokumentasi yang tersedia untuk JDV:
     
     Baca daftar dokumen yang tersedia disitu, dan identifikasi dokumen mana yang kira-kira perlu dibaca untuk proses instalasi.
 
-2.  Klik dokumen [Getting Started Guide](https://access.redhat.com/site/documentation/en-US/Red_Hat_JBoss_Data_Virtualization/6.3/html/Getting_Started_Guide/index.html)
+2.  Klik dokumen [Getting Started Guide](https://access.redhat.com/documentation/en/red-hat-jboss-data-virtualization/6.3/paged/getting-started-guide/)
 
-    Baca _Chapter 7. Installing The Product_, ikuti langkah-langkah dasar instalasi menggunakan GUI yang dijelaskan di halaman tersebut. Saat diminta menspesifikasikan direktori untuk instalasi, gunakan path yang mudah dan tidak terlalu panjang misalnya di `/home/jboss/DV_60`
+    Baca _Chapter 4.3. Installing JBoss Data Virtualization_, ikuti langkah-langkah dasar instalasi menggunakan GUI yang dijelaskan di halaman tersebut. Saat diminta menspesifikasikan direktori untuk instalasi, gunakan path yang mudah dan tidak terlalu panjang misalnya di `/home/jboss/JDV_63`
 
 ## Instalasi 
 
@@ -38,6 +38,8 @@ Cara instalasi JBoss Data Virtualization 6.3:
 1. Instal EAP 6.4
    
    Bisa dilihat disini caranya: [lab0-instalasi-jboss-eap.md](https://github.com/ejlp12/jboss-eap-workshop-site/blob/master/lab0-instalasi-jboss-eap.md)
+
+   Gunakan cara termudah yaitu dengan ekstrak file zip
 
 2. **OPSIONAL** Instal patch EAP 6.4.9 (`jboss-eap-6.4.9-patch.zip`) 
    
