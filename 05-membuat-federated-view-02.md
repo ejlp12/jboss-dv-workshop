@@ -14,9 +14,9 @@
 
    Klik [Finish]
    
-![image](https://cloud.githubusercontent.com/assets/3068071/18109754/a5c27a60-6f3d-11e6-8bff-4fe5e0effb20.png)
+   ![image](https://cloud.githubusercontent.com/assets/3068071/18110767/50ea0ef2-6f44-11e6-9195-d6c7de030673.png)
 
-   Abaikan problem:
+   Abaikan jika muncul problem seperti ini:
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/18109814/feef20f2-6f3d-11e6-9b3c-67a25406d018.png)
 
