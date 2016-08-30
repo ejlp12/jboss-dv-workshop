@@ -5,19 +5,11 @@ Berikut file-file yang diperlukan untuk installasi:
 -  **jboss-dv-installer-6.3.0.jar** (File installer JDV versi 6.3.0) 
 -  **jboss-eap-installer-6.4.0.zip** (File installer JBoss EAP versi 6.4.0)
 
-File-file tersebut dapat didownload di:
   
-   [http://developers.redhat.com/products/datavirt/download/](http://developers.redhat.com/products/datavirt/download/)
+- File installer JDV dapat diunduh di  [http://developers.redhat.com/products/datavirt/download/](http://developers.redhat.com/products/datavirt/download/) 
+- File installer EAP 6.4 yang dapat diunduh di [http://developers.redhat.com/products/eap/download/](http://developers.redhat.com/products/eap/download/)
 
-atau di 
-
-   Customer Support Portal (CSP) at https://access.redhat.com/
-
-   ![image](https://cloud.githubusercontent.com/assets/3068071/18037488/db7c88e2-6daf-11e6-8eca-d8f19762b20a.png)
-
-- File installer EAP 6.4 yang dapat didownload di [http://developers.redhat.com/products/eap/download/](http://developers.redhat.com/products/eap/download/)
-
-    dan juga file [EAP 6.4.9 roll up patch](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=39353)
+  Sebaiknya kita unduh juga file [EAP 6.4.9 patch](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=39353)
 
 ## Akses ke Dokumentasi Produk
 
