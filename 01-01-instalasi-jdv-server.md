@@ -8,8 +8,8 @@ Berikut file-file yang diperlukan untuk installasi:
 File-file tersebut dapat didownload di:
   
    [http://developers.redhat.com/products/datavirt/download/?referrer=jbd](http://developers.redhat.com/products/datavirt/download/?referrer=jbd) 
-    
-    atau di 
+
+atau di 
 
    Customer Support Portal (CSP) at https://access.redhat.com/
 
