@@ -66,7 +66,11 @@ Kita dapat menambahkan __Child__ di Source Model dengan cara mengklik kanan `Pos
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/8077033/507dbb54-0f7c-11e5-8ce3-00c1f8555d51.png)
 
-
+   Klik [Cancel] karena kita tidak akan menambahkan tabel secara manual.
+   
+   Kita akan lakukan dengan cara yang lebih mudah.
+    
+    
 2.  Cara yang mudah adalah dengan menggunakan cara Import, seperti halnya kita membuat Source Model baru, tetapi saat mendefinisikan nama Source Model kita dapat memilih opsi __Update Source Model__ seperti berikut:
 
    ![image](https://cloud.githubusercontent.com/assets/3068071/8076784/517fa136-0f7a-11e5-9e7b-fed4a05c912b.png)
